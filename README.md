@@ -54,16 +54,28 @@
 
 ```
 "https://apiv1.parex.exchange/getMarkets"
-- `apikey : Parex API Key`
-- `secretkey : Parex Secret Key`
-- `token : Parex Token (getToken)`
 ```
-- `id : Market ID` 
-- `marketname : Market Name`
-- `paircoin : PairCoin ID`
-- `maincoin : MainCoin ID`
-- `pairinfo : PairCoin Name`
-- `maininfo : MainCoin Name`
+
+` --- INPUT  --- `
+| Name | Type         | Mandatory| Description |
+| :--: | :---------- | :------ | :--------- |
+| apikey | String | Yes | Parex API Key |
+| secretkey | String | Yes | Parex Secret Key |
+| token | String | Yes | Parex Token |
+
+
+
+` --- OUTPUT --- `
+| Name | Type         | Mandatory| Description |
+| :--: | :---------- | :------ | :--------- |
+| id | Integer | Yes | Market ID  |
+| marketname | String | Yes | Market Name  |
+| paircoin | String | Yes | PairCoin ID  |
+| maincoin | String | Yes | MainCoin ID  |
+| pairinfo | String | Yes | PairCoin Name  |
+| maininfo | String | Yes | PairCoin Name  |
+
+
 
 
 ```
