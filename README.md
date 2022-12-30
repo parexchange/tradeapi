@@ -10,7 +10,7 @@ Fetch system status.
 ```
 "https://apiv1.parex.exchange/ping"
 ```
-Get Information your status.
+Test connectivity to the Rest API.
 
 
 "apikey and secretkey"
