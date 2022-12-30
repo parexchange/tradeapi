@@ -15,6 +15,7 @@ Get Information your status.
 
 "apikey and secretkey"
 These variables are completely specific to your user.
+##please get it from the parex app
 
 
 ```
