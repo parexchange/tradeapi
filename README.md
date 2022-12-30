@@ -10,15 +10,18 @@ Fetch system status.
 ```
 "https://apiv1.parex.exchange/ping"
 ```
-
 Get Information your status.
+
+
+"apikey and secretkey"
+These variables are completely specific to your user.
 
 
 ```
 "https://apiv1.parex.exchange/getToken"
 
 ```
-The 'Get Token' call returns a token that is used in all subsequent API calls. Since a token is short-lived, it will be necessary to repeat this process to obtain a new token when the previous token expires.
+The 'GetToken' call returns a token that is used in all subsequent API calls. Since a token is short-lived, it will be necessary to repeat this process to obtain a new token when the previous token expires.
 
 ` --- INPUT  --- `
 | Name | Type         | Mandatory| Description |
