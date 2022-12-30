@@ -101,23 +101,31 @@
 
 
 
-
-"https://apiv1.parex.exchange/getMyOrders"
-- `apikey : Parex API Key`
-- `secretkey : Parex Secret Key`
-- `marketid : Parex Market ID`
-- `token : Parex Token (getToken)`
 ```
-- `orderid : orderID `
-- `type : Buy/Sell `
-- `date : Datetime `
-- `amount : Amount`
-- `price : Price`
-- `total : Total`
-- `marketid : Parex MarketID`
-- `pairinfo : PairCoin Name`
-- `maininfo : MainCoin Name`
+"https://apiv1.parex.exchange/getMyOrders"
+```
 
+` --- INPUT  --- `
+| Name | Type         | Mandatory| Description |
+| :--: | :---------- | :------ | :--------- |
+| apikey | String | Yes | Parex API Key |
+| secretkey | String | Yes | Parex Secret Key |
+| marketid | String | Yes | Parex Market ID |
+| token | String | Yes | Parex Token |
+
+
+` --- OUTPUT --- `
+| Name | Type         | Mandatory| Description |
+| :--: | :---------- | :------ | :--------- |
+| orderid | Integer | Yes | orderID |
+| type | String | Yes | Buy/Sell  |
+| date | Datetime | Yes | Order Date |
+| amount | String | Yes | Amount  |
+| price | String | Yes | Price  |
+| total | String | Yes | Total  |
+| marketid | String | Yes | Parex MarketID  |
+| pairinfo | String | Yes | PairCoin Name  |
+| maininfo | String | Yes | MainCoin Name  |
 
 
 ```
