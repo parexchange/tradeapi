@@ -32,13 +32,24 @@
 
 ```
 "https://apiv1.parex.exchange/getAssets"
-- `apikey : Parex API Key`
-- `secretkey : Parex Secret Key`
-- `token : Parex Token (getToken)`
 ```
-- `id : Asset ID` 
-- `shortname : Asset Short Name`
-- `assets : Asset Name`
+
+` --- INPUT  --- `
+| Name | Type         | Mandatory| Description |
+| :--: | :---------- | :------ | :--------- |
+| apikey | String | Yes | Parex API Key |
+| secretkey | String | Yes | Parex Secret Key |
+| token | String | Yes | Parex Token |
+
+
+
+` --- OUTPUT --- `
+| Name | Type         | Mandatory| Description |
+| :--: | :---------- | :------ | :--------- |
+| id | Integer | Yes | Asset ID  |
+| shortname | String | Yes | Asset Short Name  |
+| assets | String | Yes | Asset Name  |
+
 
 
 ```
