@@ -12,10 +12,22 @@
 
 ```
 "https://apiv1.parex.exchange/getToken"
-- `apikey : Parex API Key`
-- `secretkey : Parex Secret Key`
+
 ```
-- `assets : Parex Token`
+
+` INPUT `
+| Name | Type         | Mandatory| Description |
+| :--: | :---------- | :------ | :--------- |
+| apikey | String | Yes | Parex API Key |
+| secretkey | String | Yes | Parex Secret Key |
+
+
+
+` OUTPUT `
+| Name | Type         | Mandatory| Description |
+| :--: | :---------- | :------ | :--------- |
+| result | String | Yes | Parex Token  |
+
 
 
 ```
