@@ -5,15 +5,20 @@
 "https://apiv1.parex.exchange/echo"
 ```
 
+Fetch system status.
+
 ```
 "https://apiv1.parex.exchange/ping"
 ```
+
+Get Information your status.
 
 
 ```
 "https://apiv1.parex.exchange/getToken"
 
 ```
+The 'Get Token' call returns a token that is used in all subsequent API calls. Since a token is short-lived, it will be necessary to repeat this process to obtain a new token when the previous token expires.
 
 ` --- INPUT  --- `
 | Name | Type         | Mandatory| Description |
