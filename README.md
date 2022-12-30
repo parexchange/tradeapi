@@ -15,7 +15,9 @@
 
 ```
 
-` INPUT `
+``` 
+INPUT 
+```
 | Name | Type         | Mandatory| Description |
 | :--: | :---------- | :------ | :--------- |
 | apikey | String | Yes | Parex API Key |
@@ -23,7 +25,9 @@
 
 
 
-` OUTPUT `
+```
+OUTPUT
+```
 | Name | Type         | Mandatory| Description |
 | :--: | :---------- | :------ | :--------- |
 | result | String | Yes | Parex Token  |
