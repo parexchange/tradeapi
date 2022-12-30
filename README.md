@@ -222,6 +222,7 @@ Method : POST
 
 
 - Get your historical orders
+Get trades for a specific account and symbol,Only the transaction records in the past 1 month can be queried. If you want to view more transaction records, please use the export function on the web side, which supports exporting transaction records of the past 3 years at most.
 
 
 ` --- INPUT  --- `
@@ -252,7 +253,7 @@ Method : POST
 Method : POST 
 
 
-- Get your Active Buy orders
+- Get all open buy orders on a symbol. Careful when accessing this with no symbol.
 
 ` --- INPUT  --- `
 | Name | Type         | Mandatory| Description |
@@ -281,7 +282,7 @@ Method : POST
 ```
 Method : POST 
 
-- Get your Active Sell orders
+- Get all open sell orders on a symbol. Careful when accessing this with no symbol.
 
 
 
@@ -359,3 +360,13 @@ Method : POST
 | orderid | Integer | Yes | orderID |
 | marketid | String | Yes | Parex Market ID |
 | marketname | String | Yes | Parex Market Name |
+
+
+- MARKET orders using the quantity field specifies the amount of the base asset the user wants to sell at the market price
+For example, sending a MARKET order on BTCUSDT will specify how much BTC the user is selling.
+- MARKET orders using quoteOrderQty specifies the amount the user wants to spend (when buying) the quote asset; the correct quantity will be determined based on the market liquidity
+- Using BTCUSDT as an example:
+On the BUY side, the order will buy as many BTC as quoteOrderQty USDT can.
+On the SELL side, the order will sell the quantity of BTC.
+
+
