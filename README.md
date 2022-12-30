@@ -1,11 +1,35 @@
+# API Reference
 
-## API Reference
 
+
+## Table of Contents
+
+1. [System Status](#system-status)
+2. [Apikey](#apikey-and-secretkey)
+3. [Get Token](#gettoken)
+4. [Get Assets](#get-assets)
+5. [Get Markets](#get-markets)
+6. [Get Spot Wallet Balances](#get-spot-wallet-balances)
+7. [Get My Active Orders](#get-my-active-orders)
+8. [Get My Orders By ID](#get-my-orders-by-id)
+9. [Cancel My Orders By ID](#cancel-my-orders-by-id)
+10. [Get My Historycal Data](#get-my-historycal-data)
+11. [Get Active Buy Orders](#get-active-buy-orders)
+12. [Get Active Sell Orders](#get-active-sell-orders)
+13. [Send a New Sell Order](#send-a-new-sell-order)
+14. [Send a New Buy Order](#send-a-new-buy-order)
+
+
+
+
+
+
+## System Status
 ```
 "https://apiv1.parex.exchange/echo"
 ```
 
-- Fetch system status.
+ Fetch system status.
 
 ```
 "https://apiv1.parex.exchange/ping"
@@ -13,11 +37,12 @@
 - Test connectivity to the Rest API.
 
 
-"apikey and secretkey"
+## apikey and secretkey
 These variables are completely specific to your user.
 Please get it from the parex app
 
 
+## GetToken
 ```
 "https://apiv1.parex.exchange/getToken"
 
@@ -40,7 +65,7 @@ Method : POST
 | result | String | Yes | Parex Token  |
 
 
-
+## Get Assets
 ```
 "https://apiv1.parex.exchange/getAssets"
 ```
@@ -65,7 +90,7 @@ Method : POST
 | assets | String | Yes | Asset Name  |
 
 
-
+## Get Markets
 ```
 "https://apiv1.parex.exchange/getMarkets"
 ```
@@ -95,6 +120,7 @@ Method : POST
 
 
 
+## Get Spot Wallet Balances
 
 ```
 "https://apiv1.parex.exchange/getWalletBalances"
@@ -122,6 +148,7 @@ Method : POST
 
 
 
+## Get My Active Orders
 
 ```
 "https://apiv1.parex.exchange/getMyOrders"
@@ -154,6 +181,7 @@ Method : POST
 | maininfo | String | Yes | MainCoin Name  |
 
 
+## Get My Orders By ID
 ```
 "https://apiv1.parex.exchange/getMyOrdersByID"
 ```
@@ -187,6 +215,7 @@ Method : POST
 
 
 
+## Cancel My Orders By ID
 
 ```
 "https://apiv1.parex.exchange/cancelMyOrdersByID"
@@ -214,6 +243,8 @@ Method : POST
 | marketid | String | Yes | Parex Market ID |
 | marketname | String | Yes | Parex Market Name |
 
+
+## Get My Historycal Data
 
 ```
 "https://apiv1.parex.exchange/getMyHistory"
@@ -247,6 +278,8 @@ Get trades for a specific account and symbol,Only the transaction records in the
 | maininfo | String | Yes | MainCoin Name  |
 
 
+## Get Active Buy Orders
+
 ```
 "https://apiv1.parex.exchange/getBuyOrders"
 ```
@@ -276,6 +309,9 @@ Method : POST
 | pairinfo | String | Yes | PairCoin Name  |
 | maininfo | String | Yes | MainCoin Name  |
 
+
+
+## Get Active Sell Orders
 
 ```
 "https://apiv1.parex.exchange/getSellOrders"
@@ -308,6 +344,8 @@ Method : POST
 | maininfo | String | Yes | MainCoin Name  |
 
 
+## Send a New Sell Order
+
 ```
 "https://apiv1.parex.exchange/setSellOrder"
 ```
@@ -334,6 +372,8 @@ Method : POST
 | marketid | String | Yes | Parex Market ID |
 | marketname | String | Yes | Parex Market Name |
 
+
+## Send a New Buy Order
 
 ```
 "https://apiv1.parex.exchange/setBuyOrder"
