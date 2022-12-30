@@ -5,12 +5,12 @@
 "https://apiv1.parex.exchange/echo"
 ```
 
-Fetch system status.
+- Fetch system status.
 
 ```
 "https://apiv1.parex.exchange/ping"
 ```
-Test connectivity to the Rest API.
+- Test connectivity to the Rest API.
 
 
 "apikey and secretkey"
@@ -22,7 +22,9 @@ Please get it from the parex app
 "https://apiv1.parex.exchange/getToken"
 
 ```
-The 'GetToken' call returns a token that is used in all subsequent API calls. Since a token is short-lived, it will be necessary to repeat this process to obtain a new token when the previous token expires.
+Method : POST 
+
+- The 'GetToken' call returns a token that is used in all subsequent API calls. Since a token is short-lived, it will be necessary to repeat this process to obtain a new token when the previous token expires.
 
 ` --- INPUT  --- `
 | Name | Type         | Mandatory| Description |
@@ -42,7 +44,9 @@ The 'GetToken' call returns a token that is used in all subsequent API calls. Si
 ```
 "https://apiv1.parex.exchange/getAssets"
 ```
-Get information of coins (available for deposit and withdraw) for user.
+Method : POST 
+
+- Get information of coins (available for deposit and withdraw) for user.
 
 ` --- INPUT  --- `
 | Name | Type         | Mandatory| Description |
@@ -65,8 +69,10 @@ Get information of coins (available for deposit and withdraw) for user.
 ```
 "https://apiv1.parex.exchange/getMarkets"
 ```
+Method : POST 
 
-Get information of available market
+
+- Get information of available market
 
 ` --- INPUT  --- `
 | Name | Type         | Mandatory| Description |
@@ -93,7 +99,10 @@ Get information of available market
 ```
 "https://apiv1.parex.exchange/getWalletBalances"
 ```
-Get your wallet balances
+Method : POST 
+
+
+- Get your wallet balances
 
 ` --- INPUT  --- `
 | Name | Type         | Mandatory| Description |
@@ -117,7 +126,10 @@ Get your wallet balances
 ```
 "https://apiv1.parex.exchange/getMyOrders"
 ```
-Get your orders
+Method : POST 
+
+
+- Get your orders
 
 ` --- INPUT  --- `
 | Name | Type         | Mandatory| Description |
@@ -145,7 +157,10 @@ Get your orders
 ```
 "https://apiv1.parex.exchange/getMyOrdersByID"
 ```
-Get your orders by ID
+Method : POST 
+
+
+- Get your orders by ID
 
 ` --- INPUT  --- `
 | Name | Type         | Mandatory| Description |
@@ -176,7 +191,10 @@ Get your orders by ID
 ```
 "https://apiv1.parex.exchange/cancelMyOrdersByID"
 ```
-Cancel your Order By ID
+Method : POST 
+
+
+- Cancel your Order By ID
 
 ` --- INPUT  --- `
 | Name | Type         | Mandatory| Description |
@@ -200,7 +218,10 @@ Cancel your Order By ID
 ```
 "https://apiv1.parex.exchange/getMyHistory"
 ```
-Get your historical orders
+Method : POST 
+
+
+- Get your historical orders
 
 
 ` --- INPUT  --- `
@@ -228,7 +249,10 @@ Get your historical orders
 ```
 "https://apiv1.parex.exchange/getBuyOrders"
 ```
-Get your Active Buy orders
+Method : POST 
+
+
+- Get your Active Buy orders
 
 ` --- INPUT  --- `
 | Name | Type         | Mandatory| Description |
@@ -255,7 +279,9 @@ Get your Active Buy orders
 ```
 "https://apiv1.parex.exchange/getSellOrders"
 ```
-Get your Active Sell orders
+Method : POST 
+
+- Get your Active Sell orders
 
 
 
@@ -284,7 +310,10 @@ Get your Active Sell orders
 ```
 "https://apiv1.parex.exchange/setSellOrder"
 ```
-Set new Sell Order
+Method : POST 
+
+
+- Set new Sell Order
 
 ` --- INPUT  --- `
 | Name | Type         | Mandatory| Description |
@@ -308,7 +337,10 @@ Set new Sell Order
 ```
 "https://apiv1.parex.exchange/setBuyOrder"
 ```
-Set new Buy Order
+Method : POST 
+
+
+- Set new Buy Order
 
 ` --- INPUT  --- `
 | Name | Type         | Mandatory| Description |
