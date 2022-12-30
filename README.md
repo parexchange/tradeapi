@@ -80,17 +80,28 @@
 
 ```
 "https://apiv1.parex.exchange/getWalletBalances"
-- `apikey : Parex API Key`
-- `secretkey : Parex Secret Key`
-- `token : Parex Token (getToken)`
 ```
-- `id : line number` 
-- `address : Wallet Address`
-- `shortname : Asset Short Name`
-- `balance : Balance`
+
+` --- INPUT  --- `
+| Name | Type         | Mandatory| Description |
+| :--: | :---------- | :------ | :--------- |
+| apikey | String | Yes | Parex API Key |
+| secretkey | String | Yes | Parex Secret Key |
+| token | String | Yes | Parex Token |
 
 
-```
+` --- OUTPUT --- `
+| Name | Type         | Mandatory| Description |
+| :--: | :---------- | :------ | :--------- |
+| id | Integer | Yes | line number  |
+| address | String | Yes | Wallet Address  |
+| shortname | String | Yes | Asset Short Name |
+| balance | String | Yes | Balance  |
+
+
+
+
+
 "https://apiv1.parex.exchange/getMyOrders"
 - `apikey : Parex API Key`
 - `secretkey : Parex Secret Key`
