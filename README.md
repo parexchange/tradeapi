@@ -14,10 +14,11 @@
 8. [Get My Orders By ID](#get-my-orders-by-id)
 9. [Cancel My Orders By ID](#cancel-my-orders-by-id)
 10. [Get My Historycal Data](#get-my-historycal-data)
-11. [Get Active Buy Orders](#get-active-buy-orders)
-12. [Get Active Sell Orders](#get-active-sell-orders)
-13. [Send a New Sell Order](#send-a-new-sell-order)
-14. [Send a New Buy Order](#send-a-new-buy-order)
+11. [Get Active Orders](#get-active-orders)
+12. [Get Active Buy Orders](#get-active-buy-orders)
+13. [Get Active Sell Orders](#get-active-sell-orders)
+14. [Send a New Sell Order](#send-a-new-sell-order)
+15. [Send a New Buy Order](#send-a-new-buy-order)
 
 
 
@@ -278,6 +279,41 @@ Get trades for a specific account and symbol,Only the transaction records in the
 | maininfo | String | Yes | MainCoin Name  |
 
 
+
+## Get Active Orders
+
+```
+"https://apiv1.parex.exchange/getOrders"
+```
+Method : POST 
+
+
+- Get all open buy orders on a symbol. Careful when accessing this with no symbol.
+
+` --- INPUT  --- `
+| Name | Type         | Mandatory| Description |
+| :--: | :---------- | :------ | :--------- |
+| apikey | String | Yes | Parex API Key |
+| secretkey | String | Yes | Parex Secret Key |
+| marketid | String | Yes | Parex Market ID |
+| token | String | Yes | Parex Token |
+| depth | String | No | Limit |
+
+` --- OUTPUT --- `
+| Name | Type         | Mandatory| Description |
+| :--: | :---------- | :------ | :--------- |
+| orderid | Integer | Yes | orderID |
+| type | String | Yes | Buy/Sell  |
+| date | Datetime | Yes | Order Date |
+| amount | String | Yes | Amount  |
+| price | String | Yes | Price  |
+| total | String | Yes | Total  |
+| marketid | String | Yes | Parex MarketID  |
+| pairinfo | String | Yes | PairCoin Name  |
+| maininfo | String | Yes | MainCoin Name  |
+
+
+
 ## Get Active Buy Orders
 
 ```
@@ -295,6 +331,7 @@ Method : POST
 | secretkey | String | Yes | Parex Secret Key |
 | marketid | String | Yes | Parex Market ID |
 | token | String | Yes | Parex Token |
+| depth | String | No | Limit |
 
 ` --- OUTPUT --- `
 | Name | Type         | Mandatory| Description |
@@ -329,6 +366,7 @@ Method : POST
 | secretkey | String | Yes | Parex Secret Key |
 | marketid | String | Yes | Parex Market ID |
 | token | String | Yes | Parex Token |
+| depth | String | No | Limit |
 
 ` --- OUTPUT --- `
 | Name | Type         | Mandatory| Description |
