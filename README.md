@@ -75,7 +75,7 @@ Method : POST
 | Name | Type         | Mandatory| Description |
 | :--: | :---------- | :------ | :--------- |
 | apikey | String | Yes | Parex API Key |
-| secretkey | String | Yes | Parex Secret Key |
+| secretkey | String | Yes | secure_private_key |
 
 
 
@@ -97,7 +97,7 @@ Method : POST
 | Name | Type         | Mandatory| Description |
 | :--: | :---------- | :------ | :--------- |
 | apikey | String | Yes | Parex API Key |
-| secretkey | String | Yes | Parex Secret Key |
+| secretkey | String | Yes | secure_private_key |
 | token | String | Yes | Parex Token |
 
 
@@ -123,7 +123,7 @@ Method : POST
 | Name | Type         | Mandatory| Description |
 | :--: | :---------- | :------ | :--------- |
 | apikey | String | Yes | Parex API Key |
-| secretkey | String | Yes | Parex Secret Key |
+| secretkey | String | Yes | secure_private_key |
 | token | String | Yes | Parex Token |
 
 
@@ -154,7 +154,7 @@ Method : POST
 | Name | Type         | Mandatory| Description |
 | :--: | :---------- | :------ | :--------- |
 | apikey | String | Yes | Parex API Key |
-| secretkey | String | Yes | Parex Secret Key |
+| secretkey | String | Yes | secure_private_key |
 | token | String | Yes | Parex Token |
 
 
@@ -182,7 +182,7 @@ Method : POST
 | Name | Type         | Mandatory| Description |
 | :--: | :---------- | :------ | :--------- |
 | apikey | String | Yes | Parex API Key |
-| secretkey | String | Yes | Parex Secret Key |
+| secretkey | String | Yes | secure_private_key |
 | marketid | String | Yes | Parex Market ID |
 | token | String | Yes | Parex Token |
 
@@ -214,7 +214,7 @@ Method : POST
 | Name | Type         | Mandatory| Description |
 | :--: | :---------- | :------ | :--------- |
 | apikey | String | Yes | Parex API Key |
-| secretkey | String | Yes | Parex Secret Key |
+| secretkey | String | Yes | secure_private_key |
 | marketid | String | Yes | Parex Market ID |
 | token | String | Yes | Parex Token |
 | orderid | String | Yes | Parex Market Order ID |
@@ -249,7 +249,7 @@ Method : POST
 | Name | Type         | Mandatory| Description |
 | :--: | :---------- | :------ | :--------- |
 | apikey | String | Yes | Parex API Key |
-| secretkey | String | Yes | Parex Secret Key |
+| secretkey | String | Yes | secure_private_key |
 | marketid | String | Yes | Parex Market ID |
 | token | String | Yes | Parex Token |
 | orderid | String | Yes | Parex Market Order ID |
@@ -280,7 +280,7 @@ Get trades for a specific account and symbol,Only the transaction records in the
 | Name | Type         | Mandatory| Description |
 | :--: | :---------- | :------ | :--------- |
 | apikey | String | Yes | Parex API Key |
-| secretkey | String | Yes | Parex Secret Key |
+| secretkey | String | Yes | secure_private_key |
 | marketid | String | Yes | Parex Market ID |
 | token | String | Yes | Parex Token |
 
@@ -313,7 +313,7 @@ Method : POST
 | Name | Type         | Mandatory| Description |
 | :--: | :---------- | :------ | :--------- |
 | apikey | String | Yes | Parex API Key |
-| secretkey | String | Yes | Parex Secret Key |
+| secretkey | String | Yes | secure_private_key |
 | marketid | String | Yes | Parex Market ID |
 | token | String | Yes | Parex Token |
 | depth | String | No | Limit |
@@ -347,7 +347,7 @@ Method : POST
 | Name | Type         | Mandatory| Description |
 | :--: | :---------- | :------ | :--------- |
 | apikey | String | Yes | Parex API Key |
-| secretkey | String | Yes | Parex Secret Key |
+| secretkey | String | Yes | secure_private_key |
 | marketid | String | Yes | Parex Market ID |
 | token | String | Yes | Parex Token |
 | depth | String | No | Limit |
@@ -382,7 +382,7 @@ Method : POST
 | Name | Type         | Mandatory| Description |
 | :--: | :---------- | :------ | :--------- |
 | apikey | String | Yes | Parex API Key |
-| secretkey | String | Yes | Parex Secret Key |
+| secretkey | String | Yes | secure_private_key |
 | marketid | String | Yes | Parex Market ID |
 | token | String | Yes | Parex Token |
 | depth | String | No | Limit |
@@ -415,7 +415,7 @@ Method : POST
 | Name | Type         | Mandatory| Description |
 | :--: | :---------- | :------ | :--------- |
 | apikey | String | Yes | Parex API Key |
-| secretkey | String | Yes | Parex Secret Key |
+| secretkey | String | Yes | secure_private_key |
 | marketid | String | Yes | Parex Market ID |
 | token | String | Yes | Parex Token |
 | amount | String | Yes | Amount  |
@@ -444,7 +444,7 @@ Method : POST
 | Name | Type         | Mandatory| Description |
 | :--: | :---------- | :------ | :--------- |
 | apikey | String | Yes | Parex API Key |
-| secretkey | String | Yes | Parex Secret Key |
+| secretkey | String | Yes | secure_private_key |
 | marketid | String | Yes | Parex Market ID |
 | token | String | Yes | Parex Token |
 | amount | String | Yes | Amount  |
