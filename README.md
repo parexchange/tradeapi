@@ -42,13 +42,13 @@
 ## Generate Secure Private Key
 
 ```
-$plaintext = "78cd69434c4e11ecad5402ca075254e8iGdfU6i5UWMQ00YiEWbn"; ///apikey
+$plaintext = "78cd69434Q00Yc4e11ec2354e8iGdfU6i5UWad5402ca01Mix"; ///apikey
 $cipher = "aes-128-gcm"; 
 if (in_array($cipher, openssl_get_cipher_methods()))
 {
     $ivlen = openssl_cipher_iv_length($cipher);
 
-    $iv = "UixphuLll8sInuZvB0sNQ71kBIY78adrbptBjtf5";   ///secretkey
+    $iv = "Uixp8sInuZvBBIY78huLlladrbptBjtf0sNQ71k5";   ///secretkey
 
     $ciphertext = openssl_encrypt($plaintext, $cipher, $key, $options=0, $iv, $tag);
 
