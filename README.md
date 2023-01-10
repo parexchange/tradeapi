@@ -6,6 +6,7 @@
 
 1. [System Status](#system-status)
 2. [Apikey](#apikey-and-secretkey)
+3. [Generate Secure Private Key](#generate-secure-private-key)
 3. [Get Token](#gettoken)
 4. [Get Assets](#get-assets)
 5. [Get Markets](#get-markets)
@@ -36,6 +37,24 @@
 "https://apiv1.parex.exchange/ping"
 ```
 - Test connectivity to the Rest API.
+
+
+## Generate Secure Private Key
+
+```
+$plaintext = "78cd69434c4e11ecad5402ca075254e8iGdfU6i5UWMQ00YiEWbn"; ///apikey
+$cipher = "aes-128-gcm"; 
+if (in_array($cipher, openssl_get_cipher_methods()))
+{
+    $ivlen = openssl_cipher_iv_length($cipher);
+
+    $iv = "UixphuLll8sInuZvB0sNQ71kBIY78adrbptBjtf5";   ///secretkey
+
+    $ciphertext = openssl_encrypt($plaintext, $cipher, $key, $options=0, $iv, $tag);
+
+    echo $ciphertext."\n";  //secure_private_key
+}
+```
 
 
 ## apikey and secretkey
