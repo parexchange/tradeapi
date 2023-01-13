@@ -7,19 +7,20 @@
 1. [System Status](#system-status)
 2. [Apikey](#apikey-and-secretkey)
 3. [Generate Secure Private Key](#generate-secure-private-key)
-3. [Get Token](#gettoken)
-4. [Get Assets](#get-assets)
-5. [Get Markets](#get-markets)
-6. [Get Spot Wallet Balances](#get-spot-wallet-balances)
-7. [Get My Active Orders](#get-my-active-orders)
-8. [Get My Orders By ID](#get-my-orders-by-id)
-9. [Cancel My Orders By ID](#cancel-my-orders-by-id)
-10. [Get My Historycal Data](#get-my-historycal-data)
-11. [Get Active Orders](#get-active-orders)
-12. [Get Active Buy Orders](#get-active-buy-orders)
-13. [Get Active Sell Orders](#get-active-sell-orders)
-14. [Send a New Sell Order](#send-a-new-sell-order)
-15. [Send a New Buy Order](#send-a-new-buy-order)
+4. [Generate HashCode](#generate-hashCode)
+5. [Get Token](#gettoken)
+6. [Get Assets](#get-assets)
+7. [Get Markets](#get-markets)
+8. [Get Spot Wallet Balances](#get-spot-wallet-balances)
+9. [Get My Active Orders](#get-my-active-orders)
+10. [Get My Orders By ID](#get-my-orders-by-id)
+11. [Cancel My Orders By ID](#cancel-my-orders-by-id)
+12. [Get My Historycal Data](#get-my-historycal-data)
+13. [Get Active Orders](#get-active-orders)
+14. [Get Active Buy Orders](#get-active-buy-orders)
+15. [Get Active Sell Orders](#get-active-sell-orders)
+16. [Send a New Sell Order](#send-a-new-sell-order)
+17. [Send a New Buy Order](#send-a-new-buy-order)
 
 
 
@@ -55,6 +56,17 @@ if (in_array($cipher, openssl_get_cipher_methods()))
     echo $ciphertext."\n";  //secure_private_key
 }
 ```
+
+
+## Generate HashCode
+```
+$secretkey = "Uixp8sInuZvBBIY78huLlladrbptBjtf0sNQ71k5";   ///secretkey
+
+$newtimestamp = time();
+$hash = hash_hmac("sha256",$timestamp,$secretkey);
+
+```
+
 
 
 ## apikey and secretkey
