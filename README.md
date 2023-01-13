@@ -88,6 +88,9 @@ Method : POST
 | :--: | :---------- | :------ | :--------- |
 | apikey | String | Yes | Parex API Key |
 | secretkey | String | Yes | secure_private_key |
+| hash | String | Yes | HashCode |
+| timestamp | String | Yes | timestamp |
+
 
 
 
@@ -111,6 +114,8 @@ Method : POST
 | apikey | String | Yes | Parex API Key |
 | secretkey | String | Yes | secure_private_key |
 | token | String | Yes | Parex Token |
+| hash | String | Yes | HashCode |
+| timestamp | String | Yes | timestamp |
 
 
 
@@ -137,6 +142,8 @@ Method : POST
 | apikey | String | Yes | Parex API Key |
 | secretkey | String | Yes | secure_private_key |
 | token | String | Yes | Parex Token |
+| hash | String | Yes | HashCode |
+| timestamp | String | Yes | timestamp |
 
 
 
@@ -168,6 +175,8 @@ Method : POST
 | apikey | String | Yes | Parex API Key |
 | secretkey | String | Yes | secure_private_key |
 | token | String | Yes | Parex Token |
+| hash | String | Yes | HashCode |
+| timestamp | String | Yes | timestamp |
 
 
 ` --- OUTPUT --- `
@@ -197,6 +206,8 @@ Method : POST
 | secretkey | String | Yes | secure_private_key |
 | marketid | String | Yes | Parex Market ID |
 | token | String | Yes | Parex Token |
+| hash | String | Yes | HashCode |
+| timestamp | String | Yes | timestamp |
 
 
 ` --- OUTPUT --- `
@@ -230,6 +241,8 @@ Method : POST
 | marketid | String | Yes | Parex Market ID |
 | token | String | Yes | Parex Token |
 | orderid | String | Yes | Parex Market Order ID |
+| hash | String | Yes | HashCode |
+| timestamp | String | Yes | timestamp |
 
 
 ` --- OUTPUT --- `
@@ -265,6 +278,8 @@ Method : POST
 | marketid | String | Yes | Parex Market ID |
 | token | String | Yes | Parex Token |
 | orderid | String | Yes | Parex Market Order ID |
+| hash | String | Yes | HashCode |
+| timestamp | String | Yes | timestamp |
 
 
 
@@ -295,6 +310,10 @@ Get trades for a specific account and symbol,Only the transaction records in the
 | secretkey | String | Yes | secure_private_key |
 | marketid | String | Yes | Parex Market ID |
 | token | String | Yes | Parex Token |
+| hash | String | Yes | HashCode |
+| timestamp | String | Yes | timestamp |
+
+
 
 ` --- OUTPUT --- `
 | Name | Type         | Mandatory| Description |
@@ -329,6 +348,10 @@ Method : POST
 | marketid | String | Yes | Parex Market ID |
 | token | String | Yes | Parex Token |
 | depth | String | No | Limit |
+| hash | String | Yes | HashCode |
+| timestamp | String | Yes | timestamp |
+
+
 
 ` --- OUTPUT --- `
 | Name | Type         | Mandatory| Description |
@@ -363,6 +386,10 @@ Method : POST
 | marketid | String | Yes | Parex Market ID |
 | token | String | Yes | Parex Token |
 | depth | String | No | Limit |
+| hash | String | Yes | HashCode |
+| timestamp | String | Yes | timestamp |
+
+
 
 ` --- OUTPUT --- `
 | Name | Type         | Mandatory| Description |
@@ -398,6 +425,9 @@ Method : POST
 | marketid | String | Yes | Parex Market ID |
 | token | String | Yes | Parex Token |
 | depth | String | No | Limit |
+| hash | String | Yes | HashCode |
+| timestamp | String | Yes | timestamp |
+
 
 ` --- OUTPUT --- `
 | Name | Type         | Mandatory| Description |
@@ -433,6 +463,9 @@ Method : POST
 | amount | String | Yes | Amount  |
 | price | String | Yes | Price  |
 | total | String | Yes | Total  |
+| hash | String | Yes | HashCode |
+| timestamp | String | Yes | timestamp |
+
 
 ` --- OUTPUT --- `
 | Name | Type         | Mandatory| Description |
@@ -462,6 +495,9 @@ Method : POST
 | amount | String | Yes | Amount  |
 | price | String | Yes | Price  |
 | total | String | Yes | Total  |
+| hash | String | Yes | HashCode |
+| timestamp | String | Yes | timestamp |
+
 
 ` --- OUTPUT --- `
 | Name | Type         | Mandatory| Description |
