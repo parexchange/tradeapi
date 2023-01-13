@@ -88,7 +88,7 @@ Method : POST
 | :--: | :---------- | :------ | :--------- |
 | apikey | String | Yes | Parex API Key |
 | secretkey | String | Yes | secure_private_key |
-| hash | String | Yes | HashCode |
+| hash | String | Yes | [Generate HashCode](#generate-hashCode) |
 | timestamp | String | Yes | timestamp |
 
 
