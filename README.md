@@ -87,7 +87,7 @@ Method : POST
 | Name | Type         | Mandatory| Description |
 | :--: | :---------- | :------ | :--------- |
 | apikey | String | Yes | Parex API Key |
-| secretkey | String | Yes | secure_private_key |
+| secretkey | String | Yes | [Secure Private Key](#generate-secure-private-key) |
 | hash | String | Yes | [HashCode](#generate-hashCode) |
 | timestamp | String | Yes | timestamp |
 
@@ -112,7 +112,7 @@ Method : POST
 | Name | Type         | Mandatory| Description |
 | :--: | :---------- | :------ | :--------- |
 | apikey | String | Yes | Parex API Key |
-| secretkey | String | Yes | secure_private_key |
+| secretkey | String | Yes | [Secure Private Key](#generate-secure-private-key) |
 | token | String | Yes | Parex Token |
 | hash | String | Yes | [HashCode](#generate-hashCode) |
 | timestamp | String | Yes | timestamp |
@@ -140,7 +140,7 @@ Method : POST
 | Name | Type         | Mandatory| Description |
 | :--: | :---------- | :------ | :--------- |
 | apikey | String | Yes | Parex API Key |
-| secretkey | String | Yes | secure_private_key |
+| secretkey | String | Yes | [Secure Private Key](#generate-secure-private-key) |
 | token | String | Yes | Parex Token |
 | hash | String | Yes | [HashCode](#generate-hashCode) |
 | timestamp | String | Yes | timestamp |
@@ -173,7 +173,7 @@ Method : POST
 | Name | Type         | Mandatory| Description |
 | :--: | :---------- | :------ | :--------- |
 | apikey | String | Yes | Parex API Key |
-| secretkey | String | Yes | secure_private_key |
+| secretkey | String | Yes | [Secure Private Key](#generate-secure-private-key) |
 | token | String | Yes | Parex Token |
 | hash | String | Yes | [HashCode](#generate-hashCode) |
 | timestamp | String | Yes | timestamp |
@@ -203,7 +203,7 @@ Method : POST
 | Name | Type         | Mandatory| Description |
 | :--: | :---------- | :------ | :--------- |
 | apikey | String | Yes | Parex API Key |
-| secretkey | String | Yes | secure_private_key |
+| secretkey | String | Yes | [Secure Private Key](#generate-secure-private-key) |
 | marketid | String | Yes | Parex Market ID |
 | token | String | Yes | Parex Token |
 | hash | String | Yes | [HashCode](#generate-hashCode) |
@@ -237,7 +237,7 @@ Method : POST
 | Name | Type         | Mandatory| Description |
 | :--: | :---------- | :------ | :--------- |
 | apikey | String | Yes | Parex API Key |
-| secretkey | String | Yes | secure_private_key |
+| secretkey | String | Yes | [Secure Private Key](#generate-secure-private-key) |
 | marketid | String | Yes | Parex Market ID |
 | token | String | Yes | Parex Token |
 | orderid | String | Yes | Parex Market Order ID |
@@ -274,7 +274,7 @@ Method : POST
 | Name | Type         | Mandatory| Description |
 | :--: | :---------- | :------ | :--------- |
 | apikey | String | Yes | Parex API Key |
-| secretkey | String | Yes | secure_private_key |
+| secretkey | String | Yes | [Secure Private Key](#generate-secure-private-key) |
 | marketid | String | Yes | Parex Market ID |
 | token | String | Yes | Parex Token |
 | orderid | String | Yes | Parex Market Order ID |
@@ -307,7 +307,7 @@ Get trades for a specific account and symbol,Only the transaction records in the
 | Name | Type         | Mandatory| Description |
 | :--: | :---------- | :------ | :--------- |
 | apikey | String | Yes | Parex API Key |
-| secretkey | String | Yes | secure_private_key |
+| secretkey | String | Yes | [Secure Private Key](#generate-secure-private-key) |
 | marketid | String | Yes | Parex Market ID |
 | token | String | Yes | Parex Token |
 | hash | String | Yes | [HashCode](#generate-hashCode) |
@@ -344,7 +344,7 @@ Method : POST
 | Name | Type         | Mandatory| Description |
 | :--: | :---------- | :------ | :--------- |
 | apikey | String | Yes | Parex API Key |
-| secretkey | String | Yes | secure_private_key |
+| secretkey | String | Yes | [Secure Private Key](#generate-secure-private-key) |
 | marketid | String | Yes | Parex Market ID |
 | token | String | Yes | Parex Token |
 | depth | String | No | Limit |
@@ -382,7 +382,7 @@ Method : POST
 | Name | Type         | Mandatory| Description |
 | :--: | :---------- | :------ | :--------- |
 | apikey | String | Yes | Parex API Key |
-| secretkey | String | Yes | secure_private_key |
+| secretkey | String | Yes | [Secure Private Key](#generate-secure-private-key) |
 | marketid | String | Yes | Parex Market ID |
 | token | String | Yes | Parex Token |
 | depth | String | No | Limit |
@@ -421,7 +421,7 @@ Method : POST
 | Name | Type         | Mandatory| Description |
 | :--: | :---------- | :------ | :--------- |
 | apikey | String | Yes | Parex API Key |
-| secretkey | String | Yes | secure_private_key |
+| secretkey | String | Yes | [Secure Private Key](#generate-secure-private-key) |
 | marketid | String | Yes | Parex Market ID |
 | token | String | Yes | Parex Token |
 | depth | String | No | Limit |
@@ -457,7 +457,7 @@ Method : POST
 | Name | Type         | Mandatory| Description |
 | :--: | :---------- | :------ | :--------- |
 | apikey | String | Yes | Parex API Key |
-| secretkey | String | Yes | secure_private_key |
+| secretkey | String | Yes | [Secure Private Key](#generate-secure-private-key) |
 | marketid | String | Yes | Parex Market ID |
 | token | String | Yes | Parex Token |
 | amount | String | Yes | Amount  |
@@ -489,7 +489,7 @@ Method : POST
 | Name | Type         | Mandatory| Description |
 | :--: | :---------- | :------ | :--------- |
 | apikey | String | Yes | Parex API Key |
-| secretkey | String | Yes | secure_private_key |
+| secretkey | String | Yes | [Secure Private Key](#generate-secure-private-key) |
 | marketid | String | Yes | Parex Market ID |
 | token | String | Yes | Parex Token |
 | amount | String | Yes | Amount  |
